@@ -1,0 +1,1 @@
+Este projeto tem como objetivo ser um portifólio para demonstração de projetos.

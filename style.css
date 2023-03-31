@@ -1,0 +1,90 @@
+body{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #272727;
+}
+.top-bar {
+    background-color: #333;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 5px solid #f32020;
+}
+
+.container{
+    max-width: 648px;
+    margin: auto;
+    color: white;
+}
+
+.about {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+}
+
+.image_about{
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.summary{
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+}
+
+.social-icon{
+    width: 30px;
+    padding: 10px 10px 10px 0px;
+}
+
+.project{
+    background-color: #333;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+.item_project{
+    max-width: 888px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.items{
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+    margin: 20px;
+}
+
+.image_project{
+    width: 180px;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(94, 80, 221);
+}
+
+.image_project_lion{
+    width: 160px;
+    margin: 10px;
+    padding: 0;
+}
