@@ -83,8 +83,54 @@ a{
     color: rgb(94, 80, 221);
 }
 
-.image_project_lion{
-    width: 160px;
-    margin: 10px;
-    padding: 0;
+@media (max-width: 700px){
+
+    .container{
+        max-width: 600px;
+        margin: auto;
+        color: white;
+    }
+}
+
+@media (max-width: 650px){
+
+    .container{
+        max-width: 550px;
+        margin: auto;
+        color: white;
+    }
+}
+
+@media (max-width: 550px){
+
+    .container{
+        max-width: 450px;
+        margin: auto;
+        color: white;
+    }
+
+    .image_project{
+        width: 120px;
+        margin: 0;
+        padding: 0;
+    }
+
+    @media (max-width: 420px){
+
+        .container{
+            max-width: 320px;
+            margin: auto;
+            color: white;
+        }
+    }
+
+    .items{
+        flex-direction: column;
+    }
+
+    .about {
+        font-size: 19px;
+        flex-direction: column;
+    }
+
 }
